@@ -43,3 +43,11 @@ border-radius: 20px;
 }#navbar ul li a:hover{
     color:aqua;
     background-color:white;}
+    /*Home section*/
+    #Home{
+        display: flex;
+        flex-direction: column;
+        padding : 30px 200px;
+        justify-content: center;
+        align-items: center;
+    }
