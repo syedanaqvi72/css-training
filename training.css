@@ -1,0 +1,45 @@
+/* Css reset*/
+*{ margin :0;
+    padding:0;
+}
+/*css Variable*/
+:root{
+   --navbar-height:59px;
+
+}
+/*navigation bar*/
+#navbar
+{ display: flex;
+    align-items: center;
+}
+/*logo and image*/
+#logo{
+margin:24px 34px;
+}
+#logo img{
+margin:12px 28px;
+height: 39px;
+}
+/* nav bar list styling */
+#navbar{position:relative;}
+#navbar ul
+{display: flex;}
+#navbar ::before{ 
+    content:"";
+background-color:brown;
+position:absolute;
+height:50%;
+width:10%;
+z-index: -1px;
+opacity: 0.4;}
+#navbar ul li{ color:white;
+list-style: none
+font size=1.3rem}
+#navbar ul li a{
+    display:block;
+    padding:3px 22px;
+text-decoration: none;
+border-radius: 20px;
+}#navbar ul li a:hover{
+    color:aqua;
+    background-color:white;}
