@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "E:/css website/images"
+		},
+		{
+			"path": "E:/css website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css-training"
+	}
+}
