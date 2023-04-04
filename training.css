@@ -53,9 +53,14 @@ border-radius: 20px;
     }
     #Home::before{ 
         content:"";
-    background-color:url('../')
+    background-image:url('../pexels-photo-958545.jpeg');
     position:absolute;
-    height:50%;
-    width:10%;
+    height: 400px;;
+    width:100%;
     z-index: -1px;
-    opacity: 0.4;}
+    opacity: 0.89;}
+    /*utility classes*/
+    .h1-primary{
+        font-size:2.8rem;
+
+    }
